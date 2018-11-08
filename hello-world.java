@@ -1,7 +1,9 @@
 public class HelloWorld {
 	private int i;
-	public HelloWorld() {
+	public HelloWorld(String text) {
 		i = 0;
+		this.text = text;
+		System.out.println(text);
 	}
 	
 	public int getI() {
