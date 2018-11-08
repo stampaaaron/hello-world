@@ -6,5 +6,10 @@ public class HelloWorld {
 	
 	public int getI() {
 		return this.i;
+	
+	}
+
+	public void setI(int i) {
+		this.i = i;
 	}
 }
