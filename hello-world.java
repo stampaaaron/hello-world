@@ -24,4 +24,7 @@ public class HelloWorld {
 	public void setText(String text) {
 		this.text = text;
 	}
+	public String toString() {
+		return "text: " + this.text + "i: " + this.i;
+	}
 }
